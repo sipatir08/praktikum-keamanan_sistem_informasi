@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Keamanan Berbasis AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <h1>Sistem Keamanan Berbasis Kecerdasan Buatan</h1>
+        <p>Deteksi Ancaman secara Real-Time</p>
+    </header>
+
+    <main>
+        <section class="simulation">
+            <h2>Simulasi Deteksi Ancaman</h2>
+            <button id="simulateBtn">Mulai Deteksi</button>
+
+            <div id="statusMessage" class="status hidden">
+                <p><strong>Status:</strong> <span id="status">Menunggu Aktivitas...</span></p>
+            </div>
+        </section>
+
+        <section class="alert" id="alertSection" class="hidden">
+            <h3>Ancaman Terdeteksi!</h3>
+            <p>Jenis ancaman: <span id="threatType">Phishing</span></p>
+            <button id="blockBtn">Blokir IP</button>
+            <button id="alertSecurityBtn">Kirim Pemberitahuan</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sistem Keamanan AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
